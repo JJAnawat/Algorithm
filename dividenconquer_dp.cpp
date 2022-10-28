@@ -5,9 +5,6 @@ dp[i][j] = min(k<j) of (dp[i-1][k] + cost(k+1,j))
 2) Quadrangle in equality
 for all x<=y<=z<=u
 cost(x,u)+cost(y,z)>=cost(x,z)+cost(y,u)
-
-Most of this kind of problem can be using convex hull trick but
-it's only reduce time from like O(nmlogm) to O(nm) so must remember this trick cause it's simplier
 */
 #include<bits/stdc++.h>
 
