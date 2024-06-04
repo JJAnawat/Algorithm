@@ -1,5 +1,5 @@
 /*
-given a rooted tree (root=1)
+given a rooted directed tree (root=1)
 ask q queries about lca(a,b)
 */
 #include<bits/stdc++.h>
